@@ -1,3 +1,8 @@
+body {
+  font-size: 1.2em;
+  font-family:sans-serif;
+}
+
 nav {
   display:flex;
   justify-content: center;
@@ -16,14 +21,20 @@ nav {
 .container {
   display:flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .animal {
   display:flex;
   flex-direction: column;
   flex-basis: 20%;
+  align-items: center;
 }
 
 img {
   width: 200px;
+}
+
+a {
+  text-decoration: none;
 }
