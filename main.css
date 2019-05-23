@@ -4,8 +4,13 @@ nav {
 }
 
 .nav_list {
+  display: flex;
   flex-direction: row;
   list-style: none;
+}
+
+.nav_list li {
+  margin-right:10px;
 }
 
 .container {
